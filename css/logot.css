@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300');
+body {
+        font-family: 'Raleway', sans-serif !important;
+}
+.clearfix:before, .clearfix:after {
+        content: " ";
+        display:block;
+    }
+    .clearfix:after {
+        clear:both;
+    }
+
+    .wrapper {
+        width:100%;
+        max-width:885px;
+        margin: 20px auto;
+    }
+    .logot {
+        border:1px solid #3a5795;
+        text-align: center;
+        width:32%;
+        min-width: 230px;
+        height:120px;
+        margin-bottom: 8px;
+        margin-left: 8px;
+        float: left;
+        display: -webkit-flex;
+        display: flex;
+    }
+    
+    .flex-item {
+        width:205px;
+        height:auto;
+        margin:auto
+    }
+    .flex-item:hover {
+        width:220px;
+        height:auto;
+    }
+    .flex-item:hover > img {
+        -webkit-filter: grayscale(5%);
+		filter: grayscale(5%);
+    }
+    .logot a img {
+        width: 100%;
+        height: auto;
+        border-radius:0;
+        border:none !important;
+	-webkit-filter: grayscale(75%);
+	filter: grayscale(75%);
+    }
+    
+    .container {
+        width:100%;
+    }
+    .progress-bar {
+        text-align: left;
+        padding-left: 10px;
+    }
+    .progress-bar span {
+        float:right;
+        padding-right: 5px;
+    }
+    .progress {
+        margin-bottom: 10px;
+    }
+    
+    @media screen and (max-width:1250px){
+        .logot {
+           width:48%; 
+        }
+    }
+    @media screen and (max-width:810px){
+        .logot {
+           width:96%; 
+        }
+    }
+    
+    @media screen and (max-width:740px){
+        .logot {
+           width:48%; 
+        }
+    }
+    
+    @media screen and (max-width:585px){
+        .logot {
+           width:96%; 
+        }
+    }
